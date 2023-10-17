@@ -1,0 +1,37 @@
+body {
+    background: #e8ebf0;
+  }
+  
+  .card {
+    background-color: white;
+    border: none;
+  }
+  
+  .card-body i {
+    color: #f3b93e;
+    font-size: 50px;
+  }
+  
+  .border-bottom {
+    width: 30%;
+    text-align: center !important;
+  }
+  
+  .underline {
+    position: relative;
+  }
+  
+  .underline:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: -12px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 22%;
+    background: #aaaaac;
+  }
+  .card-text {
+    color: #aaaaac;
+  }
